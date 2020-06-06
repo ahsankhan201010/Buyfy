@@ -1,0 +1,6 @@
+.paragrapgh-container {
+    /* margin: 0.5rem 0rem; */
+    font-size: 1.6rem;
+    font-family: var(--font-para);
+    font-weight: var(--font-weight-regular);
+}

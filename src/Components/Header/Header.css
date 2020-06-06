@@ -1,0 +1,6 @@
+.header-container {
+    /* margin: 1rem 0rem; */
+    font-size: 3.2rem;
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-bold);
+}
