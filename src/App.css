@@ -16,7 +16,8 @@ html {
     --font-weight-regular: 400;
     --font-weight-medium: 500;
     --font-weight-bold: 700;
-    --nav-height: 10vh
+    --nav-height: 10vh;
+    --color-theme-primary: #3498db; 
 }
 
 .flex {
