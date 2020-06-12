@@ -28,6 +28,8 @@
     transform: translateY(-50%);
     transition: all 200ms ease-in-out;
     color: #a8a8a8;
+    pointer-events: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .focusedLabel {
