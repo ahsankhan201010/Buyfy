@@ -1,0 +1,33 @@
+.auth-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.auth-img {
+    background: lightblue;
+}
+
+.auth-form-area {
+    background: lightgreen;
+    align-items: flex-start;
+}
+
+.form-grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    /* background: lightgreen; */
+    display: grid;
+    grid-template-rows: 20fr 80fr;
+}
+
+.form-switcher {
+    /* background: lightsalmon; */
+}
+
+.form-fields {
+    /* background: lightseagreen; */
+    padding:0rem 5rem;
+}

@@ -18,6 +18,7 @@
     letter-spacing: 0.1rem;
     font-size: 1.8rem;
     padding-top: 1px;
+    background: transparent;
 }
 
 .input-container span {

@@ -1,0 +1,19 @@
+.forms-container {
+    width: 50%;
+    height: 30rem;
+    background: white;
+    padding: 1rem;
+    position: relative;
+    border-radius: 20px;
+}
+
+.form-logo {
+    width: 10rem;
+    height: 10rem;
+    background: lightsteelblue;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-50%);
+}

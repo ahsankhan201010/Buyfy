@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import "./StyledInput.css";
 
 const StyledInput = (props) => {
-  var {value = "", placeholder = "label" , ...restInputProps} = props;
+  var {value = "", placeholder = "label" , style , ...restInputProps} = props;
   var [focused, setFocus] = useState(false);
-  console.log(value);
   return (
-    <div className="styled-input-container flex">
+    <div style={{...style}} className="styled-input-container flex">
       <div className="input-container">
         <input
           onFocus={() => setFocus(true)}

@@ -1,9 +1,10 @@
 .button-container {
     outline: none;
     background: #4287f5;
-    padding: 1.2rem 1rem;
+    padding: 0.8rem 1.6rem;
     cursor: pointer;
     transition: all 300ms ease-in-out;
+    color: yellow !important;
 }
 
 .button-container:active {

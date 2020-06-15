@@ -7,7 +7,6 @@ import StyledInput from "./../../Components/StyledInput/StyledInput";
 
 const Home = () => {
   var [ email, setEmail ] = useState("");
-  console.log(email)
   return (
     <div>
       <h1>Home Page</h1>

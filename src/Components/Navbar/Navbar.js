@@ -1,23 +1,34 @@
-import React from 'react'
-import "./Navbar.css"
+import React from "react";
+import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-    return (
-        <div className="navbar-container">
-            <div className="logo">
-                <h1>logo</h1>
-            </div>
-            <div className="shop flex">
-                <h3>shop</h3>
-            </div>
-            <div className="cart flex">
-                <h3>cart</h3>
-            </div>
-            <div className="user flex">
-                <h3>user</h3>
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="navbar-container">
+      <div className="logo">
+        <NavLink to="/">
+          <h1>logo</h1>
+        </NavLink>
+      </div>
 
-export default Navbar
+      <div className="shop flex">
+        <NavLink to="/shop">
+          <h3>shop</h3>
+        </NavLink>
+      </div>
+      <div className="cart flex">
+        <NavLink to="/checkout">
+          <h3>cart</h3>
+        </NavLink>
+      </div>
+
+      <div className="user flex">
+        <NavLink to="/auth">
+          <h3>user</h3>
+        </NavLink>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
