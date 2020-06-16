@@ -11,5 +11,23 @@
 }
 
 .signin-form-Btn {
-    justify-self: center;
+    display: grid;
+    grid-template-rows: repeat(3,min-content);
+    row-gap: 0.5rem;
 }
+
+.signin-separator {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    background: lightcoral;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.signin-separator::before, .signin-separator::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: black;
+} 

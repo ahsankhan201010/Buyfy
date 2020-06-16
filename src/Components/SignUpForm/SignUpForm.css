@@ -1,0 +1,15 @@
+.signin-form-comtainer {
+    width: 100%;
+}
+
+.signin-form {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: repeat(2,min-content);
+    row-gap: 2rem;
+}
+
+.signin-form-Btn {
+    justify-self: center;
+}
