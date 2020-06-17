@@ -24,8 +24,8 @@ function App(props) {
           if (userDoc.exists) {
             var userObj = {
               uid,
-              Fullname: userDoc.data().Fullname,
-              Email: userDoc.data().Email,
+              fullName: userDoc.data().fullName,
+              email: userDoc.data().email,
             };
             props.setCurrentUser(userObj);
           }
