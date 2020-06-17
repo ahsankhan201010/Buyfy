@@ -1,0 +1,11 @@
+.shop-page-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr minmax(40rem, 120rem) 1fr;
+    grid-template-areas: ". category-area .";
+}
+
+.category-area {
+    grid-area: category-area;
+}

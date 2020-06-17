@@ -1,0 +1,7 @@
+.category-tab-container {
+    width: 100%;
+    background: lightcoral;
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /* TODO: 4 columns */
+    justify-items: center;
+}

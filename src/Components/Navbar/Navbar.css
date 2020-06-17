@@ -7,6 +7,7 @@
     background: lightgray;
     display: grid;
     grid-template-columns: 50vw repeat(3,1fr);
+    z-index: 100;
 }
 
 .logo {

@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import "./Shop.css";
+import CategoryContainer from "./../../Components/CategoryContainer/CategoryContainer";
 
 const Shop = () => {
-    return (
-        <div>
-            <h1>Shop Page</h1>
-        </div>
-    )
-}
+  return (
+    <div className="shop-page-container">
+      <div className="category-area">
+        <CategoryContainer />
+      </div>
+    </div>
+  );
+};
 
-export default Shop
+export default Shop;

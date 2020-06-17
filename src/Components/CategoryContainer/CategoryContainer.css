@@ -1,0 +1,7 @@
+.category-container {
+    width: 100%;
+    height: 100%;
+    background: lightblue;
+    display: grid;
+    row-gap: 10rem;
+}
