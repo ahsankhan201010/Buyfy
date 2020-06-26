@@ -15,3 +15,7 @@
     align-items: center;
     padding-left: 2rem;
 }
+
+.cart {
+    position: relative;
+}

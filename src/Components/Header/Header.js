@@ -6,7 +6,7 @@ const Header = (props) => {
   var {
     children,
     fontColor = "black",
-    fontWeight = "regular",
+    fontWeight = "bold",
     fontSize = 32,
     style = {}
   } = props;

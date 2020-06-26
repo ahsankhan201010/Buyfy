@@ -1,0 +1,8 @@
+.cart-nav-item {
+    cursor: pointer;
+    flex-flow: row;
+}
+
+.cart-nav-item h3 {
+    margin-right: 0.3rem;
+}

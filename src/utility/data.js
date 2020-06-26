@@ -1,5 +1,6 @@
 export var products = [
   {
+    id: "c1",
     name: "cap1",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -9,6 +10,7 @@ export var products = [
     cost: 500
   },
   {
+    id: "c2",
     name: "cap2",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -18,6 +20,7 @@ export var products = [
     cost: 800
   },
   {
+    id: "c3",
     name: "cap3",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -27,6 +30,7 @@ export var products = [
     cost: 400
   },
   {
+    id: "s1",
     name: "shoe1",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -36,6 +40,7 @@ export var products = [
     cost: 2000
   },
   {
+    id: "s2",
     name: "shoe2",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -45,6 +50,7 @@ export var products = [
     cost: 4500
   },
   {
+    id: "s3",
     name: "shoe3",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -54,6 +60,7 @@ export var products = [
     cost: 7800
   },
   {
+    id: "h1",
     name: "hoodie1",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -63,6 +70,7 @@ export var products = [
     cost: 3000
   },
   {
+    id: "h2",
     name: "hoodie2",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -72,6 +80,7 @@ export var products = [
     cost: 3000
   },
   {
+    id: "h3",
     name: "hoodie3",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -80,7 +89,8 @@ export var products = [
     category: "hoodies",
     cost: 2800
   },
-  {
+  { 
+    id: "g1",
     name: "glass1",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -90,6 +100,7 @@ export var products = [
     cost: 2700
   },
   {
+    id: "g2",
     name: "glass2",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -99,6 +110,7 @@ export var products = [
     cost: 3000
   },
   {
+    id: "g3",
     name: "glass3",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -108,6 +120,7 @@ export var products = [
     cost: 5000
   },
   {
+    id: "w1",
     name: "watch1",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -117,6 +130,7 @@ export var products = [
     cost: 8000
   },
   {
+    id: "w2",
     name: "watch2",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
@@ -126,6 +140,7 @@ export var products = [
     cost: 9800
   },
   {
+    id: "w3",
     name: "watch3",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",

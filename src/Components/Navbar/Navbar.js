@@ -1,31 +1,35 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Navbar.css";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import CartNavItem from "../CartNavItem/CartNavItem";
+import CartDropdown from "../CartDropdown/CartDropdown";
 
 const Navbar = () => {
+  var [isDropdownOpen, dropdownToggle] = useState(false)
   return (
     <div className="navbar-container">
       <div className="logo">
-        <NavLink to="/">
+        <Link to="/">
           <h1>logo</h1>
-        </NavLink>
+        </Link>
       </div>
 
       <div className="shop flex">
-        <NavLink to="/shop">
+        <Link to="/shop">
           <h3>shop</h3>
-        </NavLink>
+        </Link>
       </div>
       <div className="cart flex">
-        <NavLink to="/checkout">
-          <h3>cart</h3>
-        </NavLink>
+        <div onClick={() => dropdownToggle((presState) => !presState)} >
+          <CartNavItem isDropdownOpen={isDropdownOpen} />
+         { isDropdownOpen && <CartDropdown/>}
+        </div>
       </div>
 
       <div className="user flex">
-        <NavLink to="/auth">
+        <Link to="/auth">
           <h3>user</h3>
-        </NavLink>
+        </Link>
       </div>
     </div>
   );

@@ -1,13 +1,16 @@
 import React from "react";
 import "./ProductCard.css";
 import Button from './../Button/Button';
+import { connect } from 'react-redux';
+import { addItemToCart } from './../../Redux/cart/cartActions';
 
-const ProductCard = ({ product: { name, cost, imageUrl } }) => {
+const ProductCard = ({ product, addItemToCart }) => {
+  var { name, cost, imageUrl } = product;
   return (
     <div className="product-card-container">
       <div className="product-card-hover">
-          <Button backgroundColor="black" color="white" style={{width:"80%"}}>ADD TO CART</Button>
-          <Button style={{width:"80%"}}>VIEW PRODUCT</Button>
+          <Button onClick={() => addItemToCart(product) } backgroundColor="black" color="white" style={{width:"80%"}}>ADD TO CART</Button>
+          <Button  style={{width:"80%"}}>VIEW PRODUCT</Button>
       </div>
       <div
         style={{
@@ -24,4 +27,8 @@ const ProductCard = ({ product: { name, cost, imageUrl } }) => {
   );
 };
 
-export default ProductCard;
+var actions = {
+  addItemToCart
+}
+
+export default connect(null,actions)(ProductCard);

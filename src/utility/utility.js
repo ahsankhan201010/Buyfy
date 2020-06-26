@@ -45,3 +45,28 @@ export var productCategorization = (products) => {
   });
   return categorizedProducts;
 };
+
+export var addItemToCartHelper = (itemsArr, itemToAdd) => {
+  //if itemToAdd already exist ?
+  //if yes
+  //then simple increase the quanity of that item
+
+  //if no
+  //then push item to cart with one additional property "quantity"
+
+  var exist = itemsArr.some((item) => item.id === itemToAdd.id);
+  if (exist) {
+    return itemsArr.map((item) => {
+      if (item.id === itemToAdd.id) {
+        return {
+          ...item,
+          quantity: item.quantity + 1,
+        };
+      } else {
+        return item;
+      }
+    });
+  } else {
+    return [...itemsArr, { ...itemToAdd, quantity: 1 }];
+  }
+};
