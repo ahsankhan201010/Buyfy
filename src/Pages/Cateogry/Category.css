@@ -1,0 +1,19 @@
+.category-page-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr minmax(40rem, 120rem) 1fr;
+    grid-template-areas: ". category-area .";
+}
+
+.category-products-area {
+    grid-area: category-area;
+    background: lightgreen;
+}
+
+.category-products-grid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

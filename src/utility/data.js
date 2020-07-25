@@ -4,7 +4,7 @@ export var products = [
     name: "cap1",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/cap.jpg",
+    imageUrl: "/images/cap.jpg",
     postedAT: "20-05-2020",
     category: "caps",
     cost: 500
@@ -14,7 +14,7 @@ export var products = [
     name: "cap2",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/cap.jpg",
+    imageUrl: "/images/cap.jpg",
     postedAT: "02-05-2020",
     category: "caps",
     cost: 800
@@ -24,7 +24,7 @@ export var products = [
     name: "cap3",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/cap.jpg",
+    imageUrl: "/images/cap.jpg",
     postedAT: "10-05-2020",
     category: "caps",
     cost: 400
@@ -34,7 +34,7 @@ export var products = [
     name: "shoe1",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/shoes.jpg",
+    imageUrl: "/images/shoes.jpg",
     postedAT: "10-05-2020",
     category: "shoes",
     cost: 2000
@@ -44,7 +44,7 @@ export var products = [
     name: "shoe2",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/shoes.jpg",
+    imageUrl: "/images/shoes.jpg",
     postedAT: "10-05-2020",
     category: "shoes",
     cost: 4500
@@ -54,7 +54,7 @@ export var products = [
     name: "shoe3",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/shoes.jpg",
+    imageUrl: "/images/shoes.jpg",
     postedAT: "25-05-2020",
     category: "shoes",
     cost: 7800
@@ -64,7 +64,7 @@ export var products = [
     name: "hoodie1",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/hoodie.jpg",
+    imageUrl: "/images/hoodie.jpg",
     postedAT: "25-05-2020",
     category: "hoodies",
     cost: 3000
@@ -74,7 +74,7 @@ export var products = [
     name: "hoodie2",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/hoodie.jpg",
+    imageUrl: "/images/hoodie.jpg",
     postedAT: "25-05-2020",
     category: "hoodies",
     cost: 3000
@@ -84,7 +84,7 @@ export var products = [
     name: "hoodie3",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/hoodie.jpg",
+    imageUrl: "/images/hoodie.jpg",
     postedAT: "25-05-2020",
     category: "hoodies",
     cost: 2800
@@ -94,7 +94,7 @@ export var products = [
     name: "glass1",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/glasses.jpg",
+    imageUrl: "/images/glasses.jpg",
     postedAT: "25-05-2020",
     category: "glasses",
     cost: 2700
@@ -104,7 +104,7 @@ export var products = [
     name: "glass2",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/glasses.jpg",
+    imageUrl: "/images/glasses.jpg",
     postedAT: "25-05-2020",
     category: "glasses",
     cost: 3000
@@ -114,7 +114,7 @@ export var products = [
     name: "glass3",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/glasses.jpg",
+    imageUrl: "/images/glasses.jpg",
     postedAT: "25-05-2020",
     category: "glasses",
     cost: 5000
@@ -124,7 +124,7 @@ export var products = [
     name: "watch1",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/watch.jpg",
+    imageUrl: "/images/watch.jpg",
     postedAT: "25-05-2020",
     category: "watches",
     cost: 8000
@@ -134,7 +134,7 @@ export var products = [
     name: "watch2",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/watch.jpg",
+    imageUrl: "/images/watch.jpg",
     postedAT: "25-05-2020",
     category: "watches",
     cost: 9800
@@ -144,7 +144,7 @@ export var products = [
     name: "watch3",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa animi obcaecati quos laboriosam dignissimos impedit repellendus amet autem voluptate labore",
-    imageUrl: "./images/watch.jpg",
+    imageUrl: "/images/watch.jpg",
     postedAT: "25-05-2020",
     category: "watches",
     cost: 12000

@@ -1,6 +1,7 @@
 import React from "react";
 import "./CategoryTab.css";
 import ProductCard from "../ProductCard/ProductCard";
+import RoundBtn from "../RoundBtn/RoundBtn";
 
 const CategoryTab = (props) => {
   var { category, products } = props;
@@ -10,6 +11,9 @@ const CategoryTab = (props) => {
         products.map((product) => (
           <ProductCard key={product.name} product={product} />
         ))}
+        <div className="view-more-btn">
+          <RoundBtn link={`/shop/category/${category}`} />
+        </div>
     </div>
   );
 };

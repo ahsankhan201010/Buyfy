@@ -3,14 +3,15 @@ import "./ProductCard.css";
 import Button from './../Button/Button';
 import { connect } from 'react-redux';
 import { addItemToCart } from './../../Redux/cart/cartActions';
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ product, addItemToCart }) => {
-  var { name, cost, imageUrl } = product;
+  var { name, cost, imageUrl,id, category } = product;
   return (
     <div className="product-card-container">
       <div className="product-card-hover">
           <Button onClick={() => addItemToCart(product) } backgroundColor="black" color="white" style={{width:"80%"}}>ADD TO CART</Button>
-          <Button  style={{width:"80%"}}>VIEW PRODUCT</Button>
+          <Link style={{width: "80%"}} to={`/shop/category/${category}/product/${id}`}><Button style={{width:"100%"}}>VIEW PRODUCT</Button></Link>
       </div>
       <div
         style={{

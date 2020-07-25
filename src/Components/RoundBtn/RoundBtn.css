@@ -1,0 +1,7 @@
+.round-btn {
+    width: 8rem;
+    height: 8rem;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+}

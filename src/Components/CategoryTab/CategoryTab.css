@@ -4,4 +4,12 @@
     display: grid;
     grid-template-columns: repeat(3,1fr); /* TODO: 4 columns */
     justify-items: center;
+    position: relative;
+}
+
+.view-more-btn {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%,-50%);
 }
