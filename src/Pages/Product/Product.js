@@ -1,11 +1,21 @@
-import React from 'react'
+import React from "react";
+import "./Product.css"
+import ContentContainer from "./../../Components/ContentContainer/ContentContainer";
+import ProductGallery from './../../Components/ProductGallery/ProductGallery';
 
 const Product = () => {
-    return (
-        <div>
-            <h1>Product Page</h1>
-        </div>
-    )
-}
+  return (
+    <ContentContainer>
+      <div className="product-page-layout">
+        <div className="product-info">
 
-export default Product
+        </div>
+        <div className="product-gallery">
+            <ProductGallery galleryArr={["red","orange","green","purple"]} />
+        </div>
+      </div>
+    </ContentContainer>
+  );
+};
+
+export default Product;

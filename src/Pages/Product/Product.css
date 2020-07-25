@@ -1,0 +1,14 @@
+.product-page-layout {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40fr 60fr;
+}
+
+.product-info {
+    background: lightpink;
+}
+
+.product-gallery {
+    background: lightsalmon;
+}

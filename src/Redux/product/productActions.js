@@ -14,3 +14,6 @@ export var fetchProductsOfCategory = (category) => async (dispatch) => {
         console.log(error)
     }
 };
+
+
+// export var fetchProducts = () =
