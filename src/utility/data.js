@@ -7,7 +7,7 @@ export var products = [
     imageUrl: "/images/cap.jpg",
     postedAT: "20-05-2020",
     category: "caps",
-    cost: 500
+    cost: 500,
   },
   {
     id: "c2",
@@ -17,7 +17,7 @@ export var products = [
     imageUrl: "/images/cap.jpg",
     postedAT: "02-05-2020",
     category: "caps",
-    cost: 800
+    cost: 800,
   },
   {
     id: "c3",
@@ -27,7 +27,7 @@ export var products = [
     imageUrl: "/images/cap.jpg",
     postedAT: "10-05-2020",
     category: "caps",
-    cost: 400
+    cost: 400,
   },
   {
     id: "s1",
@@ -37,7 +37,7 @@ export var products = [
     imageUrl: "/images/shoes.jpg",
     postedAT: "10-05-2020",
     category: "shoes",
-    cost: 2000
+    cost: 2000,
   },
   {
     id: "s2",
@@ -47,7 +47,7 @@ export var products = [
     imageUrl: "/images/shoes.jpg",
     postedAT: "10-05-2020",
     category: "shoes",
-    cost: 4500
+    cost: 4500,
   },
   {
     id: "s3",
@@ -57,7 +57,7 @@ export var products = [
     imageUrl: "/images/shoes.jpg",
     postedAT: "25-05-2020",
     category: "shoes",
-    cost: 7800
+    cost: 7800,
   },
   {
     id: "h1",
@@ -67,7 +67,7 @@ export var products = [
     imageUrl: "/images/hoodie.jpg",
     postedAT: "25-05-2020",
     category: "hoodies",
-    cost: 3000
+    cost: 3000,
   },
   {
     id: "h2",
@@ -77,7 +77,7 @@ export var products = [
     imageUrl: "/images/hoodie.jpg",
     postedAT: "25-05-2020",
     category: "hoodies",
-    cost: 3000
+    cost: 3000,
   },
   {
     id: "h3",
@@ -87,9 +87,9 @@ export var products = [
     imageUrl: "/images/hoodie.jpg",
     postedAT: "25-05-2020",
     category: "hoodies",
-    cost: 2800
+    cost: 2800,
   },
-  { 
+  {
     id: "g1",
     name: "glass1",
     description:
@@ -97,7 +97,7 @@ export var products = [
     imageUrl: "/images/glasses.jpg",
     postedAT: "25-05-2020",
     category: "glasses",
-    cost: 2700
+    cost: 2700,
   },
   {
     id: "g2",
@@ -107,7 +107,7 @@ export var products = [
     imageUrl: "/images/glasses.jpg",
     postedAT: "25-05-2020",
     category: "glasses",
-    cost: 3000
+    cost: 3000,
   },
   {
     id: "g3",
@@ -117,7 +117,7 @@ export var products = [
     imageUrl: "/images/glasses.jpg",
     postedAT: "25-05-2020",
     category: "glasses",
-    cost: 5000
+    cost: 5000,
   },
   {
     id: "w1",
@@ -127,7 +127,7 @@ export var products = [
     imageUrl: "/images/watch.jpg",
     postedAT: "25-05-2020",
     category: "watches",
-    cost: 8000
+    cost: 8000,
   },
   {
     id: "w2",
@@ -137,7 +137,7 @@ export var products = [
     imageUrl: "/images/watch.jpg",
     postedAT: "25-05-2020",
     category: "watches",
-    cost: 9800
+    cost: 9800,
   },
   {
     id: "w3",
@@ -147,6 +147,8 @@ export var products = [
     imageUrl: "/images/watch.jpg",
     postedAT: "25-05-2020",
     category: "watches",
-    cost: 12000
-  }
+    cost: 12000,
+  },
 ];
+
+export var categories = ["caps", "shoes", "hoodies", "glasses", "watches"];

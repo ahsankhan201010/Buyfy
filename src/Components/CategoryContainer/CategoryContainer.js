@@ -1,13 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./CategoryContainer.css";
 import CategoryTab from "../CategoryTab/CategoryTab";
-import { products } from "./../../utility/data";
+import { connect } from 'react-redux';
+import { fetchLimitedProducts } from './../../Redux/product/productActions';
 import { productCategorization } from "../../utility/utility";
 
-const CategoryContainer = () => {
-  var [categorizedProducts, setCategorizedProducts] = useState([]);
+
+const CategoryContainer = (props) => {
+  var {fetchLimitedProducts, categorizedProducts} = props;
   useEffect(() => {
-    setCategorizedProducts(productCategorization(products))
+    fetchLimitedProducts()
   },[])
   return (
     <div className="category-container">
@@ -19,4 +21,12 @@ const CategoryContainer = () => {
   );
 };
 
-export default CategoryContainer;
+var actions = {
+  fetchLimitedProducts
+}
+
+var mapState = (state) => ({
+  categorizedProducts: productCategorization(state.products)
+})
+
+export default connect(mapState,actions)(CategoryContainer);

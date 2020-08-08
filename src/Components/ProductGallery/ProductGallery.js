@@ -3,7 +3,7 @@ import "./ProductGallery.css"
 
 const ProductSelectorImage = (props) => {
     var { imageURL, mainImagehHandler, mainImage } = props;
-    console.log(imageURL,mainImage)
+    // console.log(imageURL,mainImage)
     return (
         <div  style={{background: imageURL, transform: mainImage === imageURL && "scale(1.1)"}} onClick={() => mainImagehHandler(imageURL)} className="image-selector">
 
